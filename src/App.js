@@ -11,14 +11,17 @@ let App = ()=>{
 export default App */
 
 import React from "react";
-import Message from "./Message";
+import Product from "./Product";
+//import FunctionState from "./FunctionState";
+//import State from "./State.jsx";
 class App extends React.Component{
 
 render(){
 return <div>
     <h1>App Component</h1>
     <hr />
-    <Message/>
+    <Product/>
+
 </div>
 }
 }

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-class Message extends React.Component{
+class State extends React.Component{
    /*  msg = "Hello"
     clickHandler=()=>{
         this.msg = "Gopi i love you"
@@ -36,4 +36,4 @@ class Message extends React.Component{
             </Fragment>
     }
 }
-export default Message
+export default State
