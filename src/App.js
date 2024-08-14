@@ -11,7 +11,9 @@ let App = ()=>{
 export default App */
 
 import React from "react";
-import Product from "./Product";
+//import Handlers from "./Handlers";
+import Eventbinding from "./Eventbinding";
+//import Product from "./Product";
 //import FunctionState from "./FunctionState";
 //import State from "./State.jsx";
 class App extends React.Component{
@@ -20,7 +22,7 @@ render(){
 return <div>
     <h1>App Component</h1>
     <hr />
-    <Product/>
+    <Eventbinding/>
 
 </div>
 }
