@@ -12,7 +12,9 @@ export default App */
 
 import React from "react";
 //import Handlers from "./Handlers";
-import Eventbinding from "./Eventbinding";
+//import Eventbinding from "./Eventbinding";
+//import CompA from "./propsdrilling/CompA";
+import Employee from "./ListRendering";
 //import Product from "./Product";
 //import FunctionState from "./FunctionState";
 //import State from "./State.jsx";
@@ -22,7 +24,7 @@ render(){
 return <div>
     <h1>App Component</h1>
     <hr />
-    <Eventbinding/>
+    <Employee/>
 
 </div>
 }
