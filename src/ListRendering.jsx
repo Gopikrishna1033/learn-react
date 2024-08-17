@@ -17,9 +17,11 @@ let Employee = ()=>{
 return <div>
     <table border={2}>
         <thead>
+            <tr>
             <th>id</th>
             <th>name</th>
             <th>email</th>
+            </tr>
         </thead>
         <tbody>
             {
