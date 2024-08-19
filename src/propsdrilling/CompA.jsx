@@ -1,12 +1,19 @@
-let CompA = ()=>{
- let emp = {
-    ename:"Hello",
-    esal:"1000000",
-    eage:"102"
- }
-    return <div>
-        <h2>Component A</h2>
-        <pre>{JSON.stringify(emp)}</pre>
-    </div>
+import React from "react";
+import CompB from "./CompB";
+class CompA extends React.Component{
+    emp = {
+        eid:101,
+        ename:"Ram",
+        esal:600000
+    }
+    render(){
+        return <div>
+            <h2>
+                Component A
+            </h2>
+            <hr />
+            <CompB Employee ={this.emp}/>
+        </div>
+    }
 }
 export default CompA
