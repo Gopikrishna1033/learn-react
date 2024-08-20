@@ -1,28 +1,25 @@
+/* geting the data and displaying it use componentDidMount in Class Component */
 import React, { Component } from 'react'
 import axios from "axios"
-import "./message.css"
 export class Users extends Component {
-    state = {
+    state={
         msg:[]
     }
-    getUsers=()=>{
+    componentDidMount(){
         axios.get("https://jsonplaceholder.typicode.com/users")
         .then((resp)=>{
-            this.setState({msg:resp.data})
+                this.setState({msg:resp.data})
         })
-        .catch(()=>{
-            
-        })
+        .catch(()=>{})
     }
   render() {
     return (
       <div>
         <h2>User Component</h2>
-        <pre>{JSON.stringify(this.state.msg)}</pre>
-        <button onClick={this.getUsers}>Click me</button>
+        {/* <pre>{JSON.stringify(this.state.msg)}</pre> */}
         {
             this.state.msg.length>0?<div>
-                <table border={2} className='user'>
+                <table border={2}>
                     <thead>
                         <th>Id</th>
                         <th>Name</th>

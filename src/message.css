@@ -1,4 +1,10 @@
-.Ge{
+.user{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    margin-left:35%;
+}
+.ge{
     color: aqua;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 50px;
