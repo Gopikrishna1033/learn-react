@@ -11,13 +11,13 @@ function Axios() {
   .catch(()=>{})
   })
   return (
-    <div>
-      <h2>Axios </h2>
+    <div className='container mt-4'>
+      {/* <h2>Axios </h2> */}
 {/*       <pre>{JSON.stringify(msg)}</pre> */}
       {
         msg.length>0?<div>
-          <table border={2}>
-            <thead>
+          <table className='table table-bordered table-striped  table-hover' >
+            <thead className='thead-dark'>
               <th>Id</th>
               <th>Name</th>
               <th>Email</th>

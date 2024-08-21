@@ -10,14 +10,14 @@ let App = ()=>{
 }
 export default App */
 import React from "react";
-import Axio from "./lifecyclemthods/Axio.jsx";
+import Routing from "./Routing.jsx";
 class App extends React.Component{
 
 render(){
 return <div>
-    <h1>App Component</h1>
-    <hr />
-    <Axio/>
+    {/* <h1>App Component</h1> */}
+
+    <Routing/>
 
 </div>
 }
