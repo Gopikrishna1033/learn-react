@@ -13,8 +13,8 @@ function Signup() {
   return (
     <div>
        {/*  <pre>{JSON.stringify(user)}</pre> */}
-        <div className="container mt-5">
-            <div className="row" style={{marginLeft:300}}>
+        <div className="container ">
+            <div className="row" style={{marginLeft:300,marginTop:117}}>
                 <div className="card">
                     <div className="card-header">
                         <h2>Register Your Details</h2>
@@ -31,7 +31,7 @@ function Signup() {
                             <input type="date" className='form-control' name='date' onChange={updateHandler}/>
                         </div>
                         <div className="form-group">
-                            <button className='form-control btn btn-primary'>Submit</button>
+                            <button className='form-control btn btn-primary mt-3'>Submit</button>
 
                         </div>
                         </form>

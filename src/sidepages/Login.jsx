@@ -13,7 +13,7 @@ function Login() {
   return (
     <div>
         {/* <pre>{JSON.stringify(user)}</pre> */}
-        <div className="container mt-5">
+        <div className="container " style={{marginLeft:500,marginTop:200}}>
             <form action="" onSubmit={submitHandler}>
                 <div className="form-group row">
                     <label htmlFor="" className='col-form-label col-sm-1 '>Email:</label>
